@@ -2,7 +2,7 @@
     "name": "creatorwing/laravel-socialite",
     "description": "Social OAuth authentication for Laravel 5.",
     "require": {
-        "creatorwing/socialite": "2.0.2"
+        "creatorwing/socialite": "dev-master"
     },
     "autoload": {
         "psr-4": {
