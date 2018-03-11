@@ -3,9 +3,9 @@
 # Installation
 
 ```
-$ composer require "overtrue/laravel-socialite:~1.0"
+$ composer require "creatorwing/laravel-socialite:~1.0"
 ```
-> if you have been installed the `overtrue/socialite` package, please remove it from `composer.json` before this command.
+> if you have been installed the `creatorwing/socialite` package, please remove it from `composer.json` before this command.
 
 # Configuration
 
@@ -82,7 +82,7 @@ Route::get('/oauth/github', 'AuthController@redirectToProvider');
 Route::get('/oauth/github/callback', 'AuthController@handleProviderCallback');
 ```
 
-About more usage, please refer to [overtrue/socialite](https://github.com/overtrue/socialite).
+About more usage, please refer to [creatorwing/socialite](https://github.com/creatorwing/socialite).
 
 # License
 
